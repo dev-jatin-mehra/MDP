@@ -77,14 +77,8 @@ def main_app():
         diab_diagnosis = ''
 
         #button
-        x1 ,x2 = st.columns(2)
-        with x1:
-            if st.button('Generate Result'):
-                diab_diagnosis = diabetes_function([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])        
-        with x2:
-            if st.button('RESET'):
-                # it should clear the text boxes
-                diab_diagnosis=''
+        if st.button('Generate Result'):
+            diab_diagnosis = diabetes_function([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])        
 
         st.success(diab_diagnosis)
 
