@@ -97,4 +97,4 @@ xmltodict==0.13.0
 yarg==0.1.9
 # pywin32==306; platform_system == 'Windows'
 pywin32==306
-python_version >= "3.7" and python_version < "3.11"
+# python_version >= "3.7" and python_version < "3.11"
