@@ -105,9 +105,9 @@ def main_app():
             
                 # Return prediction result
                 if prediction[0] == 0:
-                    return 'The person is not diabetic!'
+                    return 'The person is free from heart disease'
                 else:
-                    return 'The person is diabetic!'
+                    return 'The person is heart diseased'
             except ValueError:
                 return "Invalid input.Please provide numerical/floating values for all fields."
 
