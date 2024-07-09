@@ -10,7 +10,7 @@ diabetes_model = pickle.load(open('./models/diabetes_trained_model.sav','rb'))
 heart_disease_model = pickle.load(open('./models/trained_model.sav','rb'))
 
 parkinsons_disease_model = pickle.load(open('./models/parkinsons_model.sav','rb'))
-
+++++++++++++++++++++++++++++++++++++    
 # side bar 
 
 def main_app():
